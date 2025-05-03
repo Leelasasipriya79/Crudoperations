@@ -1,0 +1,18 @@
+{
+  "name": "node-mysql",
+  "version": "1.0.0",
+  "description": "A simple Node.js app with MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "add-product": "node scripts/addProduct.js",
+    "delete-product": "node scripts/deleteProduct.js",
+    "update-product": "node scripts/updateProduct.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0"
+  }
+}
